@@ -21,15 +21,16 @@ This service exposes clean REST endpoints to get current weather, temperature, h
 ## 📡 API Endpoints
 
 ### 🔹 Get Weather by Latitude and Longitude
-GET [http://localhost:8080/api/weather/chennai](http://localhost:8080/weather?lat=13.08784&lon=80.27847)
+GET [http://localhost:8080/api/weather/chennai]
 
 
 #### 📌 Example Response
 ```json
 {
-  "city": "Chennai",
-  "temperature": "31°C",
-  "humidity": "74%",
-  "description": "Partly cloudy",
-  "windSpeed": "4.2 m/s"
+    "weatherDescription": "Moderate rain",
+    "weatherIcon": "🌧️",
+    "temperature": "24.2",
+    "windspeed": 15.4,
+    "weathercode": "63",
+    "time": "2025-11-30T08:15"
 }
