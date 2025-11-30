@@ -16,10 +16,16 @@ public class WeatherController {
 		super();
 		this.weatherService = weatherService;
 	}
-		
+	
+//		
+//	@GetMapping
+//	public WeatherResponseDTO getWeather(@RequestParam double lat, @RequestParam  double lon) {
+//		return weatherService.getWeather(lat, lon);
+//	}
+	
 	@GetMapping
-	public WeatherResponseDTO getWeather(@RequestParam double lat, @RequestParam  double lon) {
-		return weatherService.getWeather(lat, lon);
+	public WeatherResponseDTO getWeather(@RequestParam String location) {
+		return weatherService.getWeather(location);
 	}
 
 }

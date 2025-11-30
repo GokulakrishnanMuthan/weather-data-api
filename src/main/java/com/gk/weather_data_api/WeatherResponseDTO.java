@@ -13,7 +13,7 @@ public class WeatherResponseDTO {
 	private String temperature;
 	
 	@JsonProperty("windspeed")
-	private String windSpeed;
+	private double windSpeed;
 	
 	@JsonProperty("weathercode")
 	private String weatherCode;
@@ -21,5 +21,6 @@ public class WeatherResponseDTO {
 	@JsonProperty("time")
 	private String time;
 	
-
+	private String weatherDescription;
+	private String weatherIcon;
 }
