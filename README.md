@@ -21,7 +21,7 @@ This service exposes clean REST endpoints to get current weather, temperature, h
 ## 📡 API Endpoints
 
 ### 🔹 Get Weather by Latitude and Longitude
-GET [http://localhost:8080/api/weather/chennai]
+GET [[http://localhost:8080/api/weather/chennai](http://localhost:8080/weather?location=Chennai)]
 
 
 #### 📌 Example Response
